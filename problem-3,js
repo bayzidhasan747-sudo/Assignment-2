@@ -1,0 +1,28 @@
+function calculateAiCost(tokensUsed) {
+
+  const costPerToken = 300; // Example cost per token in USD
+  const totalCost = tokensUsed * costPerToken;
+  return totalCost;
+
+  const costPerToken2 = 500; // Example cost per token in USD
+  const totalCost2 = tokensUsed * costPerToken2;
+  return totalCost2;
+
+const costPerToken3 = 650; // Example cost per token in USD
+  const totalCost3 = tokensUsed * costPerToken3;
+  return totalCost3;
+
+const costPerToken4 = 1000; // Example cost per token in USD
+  const totalCost4 = tokensUsed * costPerToken4;
+  return totalCost4;
+
+const costPerToken5 = -10; // Example cost per token in USD
+  const totalCost5 = tokensUsed * costPerToken5;
+  return totalCost5;
+
+const costPerToken6 = "500"; // Example cost per token in USD
+  const totalCost6 = tokensUsed * costPerToken6;
+  return totalCost6;
+}
+
+
